@@ -1,0 +1,9 @@
+Emulating TCP and UDP Server
+
+This is a  module for emulating a TCP or UDP Server. It has an external configuration file, config.json that takes in parameters for ther server.
+CONN_HOST - The hostname or IP address of the server or FQDN
+CONN_PORT - The TCP or UDP portnumber
+CONN_TYPE - TCP or UDP
+MSG - The customised message the server will send back to the connecting client
+
+Starting up the server, it listens on the configured port and waits for connection. It responds back with the customised message if the connecting client sends a message, then the connection is closed. This module can be used together with Emulating TCP_UDP Client to walk through a typical network transport connection. The module can also act as a Client connecting home.
