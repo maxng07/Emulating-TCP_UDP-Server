@@ -9,8 +9,8 @@ var (
 	CONN_HOST	= ""
 	CONN_PORT	= ""
 	CONN_TYPE	= ""
-	MSG			= ""
-	c 			Config
+	MSG		= ""
+	c 		Config
 )
 
 
@@ -19,8 +19,8 @@ type Config struct {
 
     CONN_HOST           string
     CONN_PORT           string
-    CONN_TYPE			string
-    MSG					string
+    CONN_TYPE		string
+    MSG			string
 }
 
 func init() {
