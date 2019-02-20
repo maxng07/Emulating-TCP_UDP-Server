@@ -1,0 +1,6 @@
+{
+	"CONN_HOST"	: "localhost",
+	"CONN_PORT"	: "8888",
+	"CONN_TYPE"	: "tcp",
+	"MSG"		: "Thank you Commander, message received."
+}
