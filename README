@@ -7,8 +7,9 @@ CONN_TYPE - TCP or UDP
 MSG - The customised message the server will send back to the connecting client
 
 Starting up the server, it listens on the configured port and waits for connection. It responds back with the customised message if the connecting client sends a message, then the connection is closed. This module can be used together with Emulating TCP_UDP Client to walk through a typical network transport connection. The module can also act as a Client connecting home.
+A quick way to test is do a go run tcpserver.go instead of build or install.
 
-A quick way to test it is by using telnet. An example from a connecting client using telnet
+And a quick way to test it is by using telnet. An example from a connecting client using telnet
 telnet localhost 8888
 
 Or use the Emulating TCP_UDP Client.
